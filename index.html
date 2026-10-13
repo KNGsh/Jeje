@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf7f3">
+  <title>Sarah Johnson — CNA Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="Back to top"><span class="brand-icon">♥</span><span>sarah.cares</span></a>
+      <div class="top-actions"><span class="availability"><i></i>Open to full-time &amp; PRN shifts</span><button class="icon-btn" data-message aria-label="Send Sarah a message">➤</button></div>
+    </div>
+  </header>
+
+  <main class="page" id="top">
+    <section class="profile-header" aria-labelledby="profile-name">
+      <div class="cover">
+        <img src="https://cdn.magicpatterns.com/patterns/generated-images/a1f43df3-2b3e-4af2-99c4-e6cb90cb8a55.jpg" alt="">
+        <div class="cover-pills"><span>⌖ Austin, Texas</span><span><i></i> Open to full-time &amp; PRN shifts</span></div>
+        <div class="cover-note"><strong>✦ caring since 2025</strong><small>Employee of the Month · Mar ’26</small></div>
+      </div>
+
+      <div class="identity">
+        <div class="avatar-wrap">
+          <div class="avatar-ring">CERTIFIED NURSING ASSISTANT • COMPASSIONATE CARE •</div>
+          <img class="avatar" src="https://cdn.magicpatterns.com/patterns/generated-images/420a58e6-f0bc-495e-8708-350dd4f0b200.jpg" alt="Portrait of Sarah Johnson">
+          <span class="cna-badge">✓ CNA</span>
+        </div>
+        <div class="identity-main">
+          <div><h1 id="profile-name">Sarah Johnson <span class="verified" title="Verified credentials">✓</span></h1>
+            <p class="handle">@sarah.cares · <strong>Certified Nursing Assistant</strong></p></div>
+          <div class="identity-buttons"><button class="btn primary" data-message>＋ Hire Sarah</button><button class="btn outline" data-message>◉ Message</button></div>
+        </div>
+      </div>
+
+      <div class="intro-grid">
+        <div class="bio-card">
+          <p>Compassionate, dependable care at the bedside. State-certified CNA in long-term &amp; post-acute care. Helping residents stay safe, comfortable, and independent 🤍</p>
+          <div class="contact-chips">
+            <a href="mailto:sarah.johnson.cna@email.com">✉ sarah.johnson.cna@email.com</a>
+            <a href="tel:5125550148">☎ (512) 555-0148</a>
+            <a class="linkedin" href="https://linkedin.com/in/sarahjohnson-cna" target="_blank" rel="noreferrer">↗ LinkedIn</a>
+          </div>
+        </div>
+        <dl class="stats">
+          <div class="stat rose"><span>◷</span><dd>1 yr</dd><dt>experience</dt></div>
+          <div class="stat blue"><span>⌁</span><dd>1,800+</dd><dt>care hours</dt></div>
+          <div class="stat amber"><span>♧</span><dd>24</dd><dt>bed rehab unit</dt></div>
+          <div class="stat green"><span>✓</span><dd>0</dd><dt>patient falls</dt></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="highlights-section" aria-label="Skill highlights">
+      <div id="highlights" class="highlights"></div>
+    </section>
+
+    <section class="tabs-section">
+      <nav class="tabs" role="tablist" aria-label="Profile sections">
+        <button class="tab active" role="tab" aria-selected="true" data-tab="posts"><span>▦</span><b>Posts</b></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="experience"><span>▣</span><b>Experience</b></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="credentials"><span>✧</span><b>Credentials</b></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="reviews"><span>❞</span><b>Reviews</b></button>
+      </nav>
+      <div id="tab-content" class="tab-content" role="tabpanel"></div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Sarah Johnson, Certified Nursing Assistant</footer>
+  <button class="floating-message" data-message>◉ <span>Message Sarah</span></button>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" data-close aria-label="Close dialog">×</button>
+      <div id="modal-body"></div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
